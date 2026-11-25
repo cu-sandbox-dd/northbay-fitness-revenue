@@ -1,0 +1,10 @@
+member_id,plan,billing,price,status
+M001,Basic,monthly,39.00,active
+M002,Premium,annual,708.00,active
+M003,Basic,monthly,39.00,paused
+M004,Premium,monthly,69.00,active
+M005,Basic,annual,420.00,active
+M006,Studio Plus,monthly,99.00,active
+M007,Premium,annual,708.00,active
+M008,Studio Plus,annual,1068.00,paused
+M009,Basic,monthly,39.00,active
