@@ -17,7 +17,11 @@ def active_members(members):
 
 
 def monthly_value(member):
-    """What one membership is worth per month."""
+    """What one membership is worth per month.
+
+  Annual plans are billed once a year, so spread the price over 12 months."""
+    if member["billing"] == "annual":
+        return member["price"]/12
     return member["price"]
 
 
